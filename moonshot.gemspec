@@ -27,6 +27,7 @@ Gem::Specification.new do |s|
 
   s.add_dependency('activesupport')
   s.add_dependency('colorize')
+  s.add_dependency('commonmarker', '>= 0.23.1')
   s.add_dependency('faraday')
   s.add_dependency('faraday-rack')
   s.add_dependency('faraday-retry')
